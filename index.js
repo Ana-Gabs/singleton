@@ -1,7 +1,7 @@
 const Configuracion = require('./singleton/Configuracion');
 
 try {
-    // Obtener la instancia de configuración
+    // Obtener la instancia de configuracion
     const config1 = Configuracion.obtenerInstancia();
     config1.establecerConfiguracion("apiURL", "https://anagabs.com");
     config1.establecerConfiguracion("puerto", 8080);
